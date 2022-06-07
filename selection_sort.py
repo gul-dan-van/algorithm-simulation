@@ -23,7 +23,7 @@ screen=pygame.display.set_mode((screen_width,screen_height))
 pygame.display.set_caption('Selection Sort')
 
 
-length=20
+length=100
 numbers=sample(range(100),length)
 # numbers=[*range(20,0,-1)]
 max_number=max(numbers)
